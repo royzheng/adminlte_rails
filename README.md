@@ -22,7 +22,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+# Include adminlte_rails in your assets files
+add the following to your app/assets/javascripts/application.js:
+```javascript
+//= require adminlte
+```
+add the following to your app/assets/stylesheets/application.css:
+```stylesheets
+*= require adminlte
+```
 
 ## Development
 
